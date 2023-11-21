@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Menú de Navegación</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del menú de navegación */
+        nav {
+            background-color: #333;
+            height: 100vh; /* 100% del alto de la ventana */
+            width: 200px; /* Ancho fijo de la columna de navegación */
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            padding-top: 20px;
+            padding-left: 30px;
+            text-align:left;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos del contenido */
+        .contenido {
+            margin-left: 220px; /* Ajuste para dar espacio al menú de navegación */
+            padding: 20px;
+        }
+
+        /* Estilos de la galería de imágenes */
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding-left: 192px;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-gallery figure {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <h2>Keiler Martinez</h2>
+        <!-- <p>Data Analyst</p> -->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">CV</a>
+        <a href="#">Projects</a>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="contenido">
+        <!-- El contenido de tu página iría aquí -->
+        <h1>Bienvenido a mi página</h1>
+        <p>Este es el contenido de la página.</p>
+    </div>
+
+    <!-- Galería de Imágenes -->
+    <div class="image-gallery">
+        <figure>
+            <img src="https://via.placeholder.com/250" alt="Ejemplo de Imagen">
+            <figcaption>imagen0</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/250" alt="Ejemplo de Imagen">
+            <figcaption>imagen1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/250" alt="Ejemplo de Imagen">
+            <figcaption>imagen2</figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>
+
